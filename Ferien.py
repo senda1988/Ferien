@@ -1,6 +1,6 @@
 date = input(" Gib ein Datum im Format Jahr.Monat.Tag ein (z.B. 2024.12.13): ")
 
-# das Kurs von 25.11.2024 bis 25.02.2026
+# der Kurs von 25.11.2024 bis 25.02.2026
 if date >= "2024.11.24" and date <= "2026.02.25":
     if date >= "2024.12.24" and date <= "2025.01.01":
         print("Winterferien 2024")
