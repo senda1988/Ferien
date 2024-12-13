@@ -18,6 +18,7 @@ else:
     print("Dieses Datum ist nicht in diesem Kurs enthalten!")
 
 # Andere versuch
+
 # Winterferien 2024
 ferien_winter = {
     "2024.12.24",
