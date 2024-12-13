@@ -42,6 +42,14 @@ ferien_winter2 = {
     "2025.12.31",
     "2026.01.01",
 }
+urlaub = {
+    "2025.06.15",
+    "2025.06.16",
+    "2025.06.17",
+    "2025.06.18",
+    "2025.06.19",
+    "2025.06.20",
+}
 
 date2 = input(" Gib ein Datum im Format Jahr.Monat.Tag ein (z.B. 2024.12.13): ")
 
@@ -54,6 +62,8 @@ if date2 >= "2024.11.24" and date2 <= "2026.02.25":
         print("Sommerferien")
     elif date2 in ferien_winter2:
         print("Winterferien 2025")
+    elif date2 in urlaub:
+        print("Dieses Datum ist Teil meines geplanten Urlaubs!")
     else:
         print(" Es sind keine Ferien!")
 
