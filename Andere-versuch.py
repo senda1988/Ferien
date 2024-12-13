@@ -31,7 +31,7 @@ ferien_sommer = {
     "2025.08.19",
 }
 #     # Winterferien 2025
-ferien-winter2={
+ferien_winter2 = {
     "2025.12.24",
     "2025.12.25",
     "2025.12.26",
@@ -50,6 +50,10 @@ if date2 >= "2024.11.24" and date2 <= "2026.02.25":
         print("Ferien")
     elif date2 in ferien_ostern:
         print(" Osterferien ")
+    elif date2 in ferien_sommer:
+        print("Sommerferien")
+    elif date2 in ferien_winter2:
+        print("Winterferien 2025")
     else:
         print(" Es sind keine Ferien!")
 
