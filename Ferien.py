@@ -45,16 +45,16 @@ ferien = {
     "2025.08.17": "Sommerferien",
     "2025.08.18": "Sommerferien",
     "2025.08.19": "Sommerferien",
-    # Winterferien 2024
-    "2025.12.24": "Winterferien",
-    "2025.12.25": "Winterferien",
-    "2025.12.26": "Winterferien",
-    "2025.12.27": "Winterferien",
-    "2025.12.28": "Winterferien",
-    "2025.12.29": "Winterferien",
-    "2025.12.30": "Winterferien",
-    "2025.12.31": "Winterferien",
-    "2026.01.01": "Winterferien",
+    # Winterferien 2025
+    "2025.12.24": "Winterferien 2025",
+    "2025.12.25": "Winterferien 2025",
+    "2025.12.26": "Winterferien 2025",
+    "2025.12.27": "Winterferien 2025",
+    "2025.12.28": "Winterferien 2025",
+    "2025.12.29": "Winterferien 2025",
+    "2025.12.30": "Winterferien 2025",
+    "2025.12.31": "Winterferien 2025",
+    "2026.01.01": "Winterferien 2025",
 }
 date2 = input(" Gib ein Datum im Format Jahr.Monat.Tag ein (z.B. 2024.12.13): ")
 
