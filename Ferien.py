@@ -76,7 +76,7 @@ date2 = input(" Gib ein Datum im Format Jahr.Monat.Tag ein (z.B. 2024.12.13): ")
 
 if date2 >= "2024.11.24" and date2 <= "2026.02.25":
     if date2 in ferien_winter:
-        print("Ferien")
+        print("Winterferien 2024")
     elif date2 in ferien_ostern:
         print(" Osterferien ")
     elif date2 in ferien_sommer:
