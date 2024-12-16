@@ -18,8 +18,8 @@ def calculator():
     cal = input(
         "Wählen Sie eine Operation \n addieren : add, subtrahieren: sbr, multiplizieren: mult, dividieren: div "
     )
-    a = int(input("Gib ein zahl: "))
-    b = int(input("Gib ei zweiter Zahl: "))
+    a = int(input("Gib eine zahl ein: "))
+    b = int(input("Gib eine zweite Zahl ein: "))
     if cal == "add":
         print(f" Addition: {add(a, b)}")
     elif cal == "sbr":
@@ -35,10 +35,10 @@ def calculator():
         print("Operation invalid!")
 
 
-zahl1 = int(input("Gib ein zahl: "))
-zahl2 = int(input("Gib ei zweiter Zahl: "))
+zahl1 = int(input("Gib eine zahl: "))
+zahl2 = int(input("Gib ene zweiter Zahl ein: "))
 
-print(f" Addition: {add(zahl1, zahl2)}")
+print(f"Addition: {add(zahl1, zahl2)}")
 print(f"Substraction: {substract(zahl2, zahl2)}")
 print(f"Multiplication: {mult(zahl1, zahl2)}")
 
