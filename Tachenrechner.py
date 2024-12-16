@@ -36,7 +36,7 @@ def calculator():
 
 
 zahl1 = int(input("Gib eine zahl: "))
-zahl2 = int(input("Gib ene zweiter Zahl ein: "))
+zahl2 = int(input("Gib eine zweite Zahl ein: "))
 
 print(f"Addition: {add(zahl1, zahl2)}")
 print(f"Substraction: {substract(zahl2, zahl2)}")
