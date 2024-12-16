@@ -16,7 +16,7 @@ def div(x, y):
 
 def calculator():
     cal = input(
-        "Wählen Sie eine Operation (addieren : add, subtrahieren: sbr, multiplizieren: mult oder dividieren: div)?"
+        "Wählen Sie eine Operation \n addieren : add, subtrahieren: sbr, multiplizieren: mult, dividieren: div "
     )
     a = int(input("Gib ein zahl: "))
     b = int(input("Gib ei zweiter Zahl: "))
@@ -32,7 +32,7 @@ def calculator():
         else:
             print("Error!")
     else:
-        print("choice invalid!")
+        print("Operation invalid!")
 
 
 zahl1 = int(input("Gib ein zahl: "))
